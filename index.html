@@ -3,55 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./responsive.css">
-    <link rel="stylesheet" href="./fold.css">
-    <link rel="stylesheet" href="./nestHub.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
     <title>Stats Preview Card</title>
   </head>
   <body>
-    <main>
-      <div class="container">
-        <div class="block-1">
-          <img
-            src="./images/image-header-desktop.jpg"
-            alt=""
-            style="
-              filter: invert(29%) sepia(16%) saturate(1050%) hue-rotate(234deg)
-                brightness(72%) contrast(135%);
-            "
-          />
-          <div class="block-2">
-            <h1 id="title">
-              Get <span class="color">insights</span> that help <br />your
-              business grow.
-            </h1>
-            <p id="subtitle">
-              Discover the benefits of data analytics and make <br />better
-              decisions regarding revenue, customer<br />
-              experience, and overall efficiency.
-            </p>
-            <div id="title-2">
-              <h1>10k+</h1>
-              <p class="subtitle-2">COMPANIES</p>
-            </div>
-            <div id="title-3">
-              <h1>314</h1>
-              <p class="subtitle-2">TEMPLATES</p>
-            </div>
-            <div id="title-4">
-              <h1>12M+</h1>
-              <p class="subtitle-2">QUERIES</p>
-            </div>
-          </div>
+    <div class="block">
+      <div class="purple-image"></div>
+      <img src="./images/image-header-mobile.jpg" alt="" />
+      <div class="text">
+        <h1 id="main-heading">
+          Get <span>insights</span> that help your business grow.
+        </h1>
+        <p id="main-paragraph">
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, costumer experience, and overall efficiency.
+        </p>
+        <div class="stats">
+          <h1>10k+</h1>
+          <h1>314</h1>
+          <h1>12M+</h1>
+        </div>
+        <div class="stats2">
+          <p>COMPANIES</p>
+          <p>TEMPLATES</p>
+          <p>QUERIES</p>
         </div>
       </div>
-    </main>
+    </div>
   </body>
 </html>
